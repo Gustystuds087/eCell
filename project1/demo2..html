@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        position:posit;
+        padding: 0px 190px;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    .navbar ul li a {
+        font-size: 19px;
+        text-decoration: none;
+        display: block;
+        padding: 2px 26px;
+    }
+#content{
+    padding: 69px 191px;
+    display: flex;
+}
+.navonly{
+    padding: 15px;
+    
+}
+.navonly li{
+    padding: 10px;
+    
+}
+
+.navonly li a{
+    color: black;
+    text-decoration: none;
+}
+.navonly li a:hover{
+    cursor: pointer;
+        color: rgb(78, 75, 92);
+}  
+#vincent{
+    font-weight:bold;
+    font-size: larger;
+}
+#law{
+    font-size: larger;
+    color: #5f5b59;
+}
+.h-primary{
+    font-size: 48px;
+}
+#services{
+    position: absolute;
+    top: 306px;
+    left: 211px;
+    font-size: large;
+}
+#bda{
+    font-size: 19px;
+}
+#p{
+    position: absolute;
+    left: 1px;
+    top: 45px;
+    width: 296px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+        background-color: rgb(212, 194, 169);
+}
+.btn{
+    border-radius: 5px;
+        background: rgb(82 64 64 / 20%);
+        
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        position: absolute;
+        top: 124px;
+        left: 5px;
+        width: 115px;
+        transition-property: background-color;
+        transition-duration: .49s;
+        padding: 6px 15px;
+
+}
+@media(max-width:456px){
+    
+}
+@media (max-width:1300px){
+    .content{
+        flex-direction: column;
+    }
+    .navbar{
+    flex-direction:column;
+    overflow:auto;
+    }
+}
+  </style>
+
+<body>
+    <nav class="navbar">
+        <div id="vincent">
+            VINCENT
+        </div>
+        <div id="law">
+        LAW
+        </div>
+        <ul class="navonly">
+            <li><a href="#">Services</a> </li>
+            <li><a href="#">Pricing</a> </li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">Call Now</a> </li>
+        </ul>
+    </nav>
+    <section id="content">
+<h1 class="h-primary">
+    Vincent Schwartz
+</h1>
+<div id="services">
+    <div class="box">
+        <p id="bda">Boston Divorce Attorney</p>
+        <p id="p">A long record of successfully resolving complex divorce & family law matters.</p>
+        <button class="btn">Book a Call</button>
+    </div>
+</div>
+    </section>
+</body>
+
+</html>
